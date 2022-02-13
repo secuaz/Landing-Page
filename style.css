@@ -18,8 +18,8 @@ body {
 .quote,
 .ads,
 .footer {
-    padding-left: 300px;
-    padding-right: 300px;
+    /*padding-left: 300px;
+    padding-right: 300px;*/
 
 }
 
@@ -33,6 +33,8 @@ body {
     font-size: 24px;
     font-weight: 1000;
     color: #F9FAF8;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .header ul {
@@ -76,7 +78,7 @@ body {
     height: auto;
     width: auto;
     object-fit: contain;
-    padding-left: 16px;
+    padding-left: 100px;
 }
 
 .hero button {
@@ -128,6 +130,9 @@ body {
     text-align: center;
     background-color: white;
     color: #1F2937;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 h2 {
@@ -137,6 +142,8 @@ h2 {
 .card {
     display: flex;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .information img {
@@ -155,6 +162,8 @@ h2 {
     color: #1F2937;
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .quote span {
@@ -167,10 +176,10 @@ h2 {
 .ads {
     background-color: white;
     height: 200px;
+    display: flex;
     align-items: center;
     justify-content: center;
     color: #E5E7EB;
-    padding-top: 60px;
 }
 
 .frame {
